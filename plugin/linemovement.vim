@@ -50,10 +50,3 @@ if !exists("g:linemovent_mapped_keys")
 
     let g:linemovent_mapped_keys = 1
 endif
-
-
-" Add empty line of above and bellow of one line
-noremap <silent> <c-o> O<ESC>jo<ESC>k
-
-
-

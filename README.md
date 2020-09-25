@@ -1,3 +1,26 @@
+## Fork by yueyoum/vim-linemovement
+This fork delete ctrl+o map.
+
+```
+diff --git a/plugin/linemovement.vim b/plugin/linemovement.vim
+old mode 100644
+new mode 100755
+index 7dae096..073c71e
+--- a/plugin/linemovement.vim
++++ b/plugin/linemovement.vim
+@@ -50,10 +50,3 @@ if !exists("g:linemovent_mapped_keys")
+ 
+     let g:linemovent_mapped_keys = 1
+ endif
+-
+-
+-" Add empty line of above and bellow of one line
+-noremap <silent> <c-o> O<ESC>jo<ESC>k
+-
+-
+-
+```
+
 # linemovement.vim
 
 Simplify the line movement in vim
