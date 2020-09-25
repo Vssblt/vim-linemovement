@@ -1,4 +1,4 @@
-## Fork by yueyoum/vim-linemovement
+## Forked from yueyoum/vim-linemovement
 This fork delete ctrl+o map.
 
 ```
